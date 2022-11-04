@@ -1,0 +1,81 @@
+#p0 { text-align: left; }
+#p1 { text-align: right; }
+#p2 { text-align: center; }
+#p3 { text-align: justify; }
+.row {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+.MyRecentWork {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); 
+}
+.img {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 150px;
+  }
+ 
+  .MyRecentWork {
+    border: 0px outset red;
+    background-color: #FFFFFF;    
+    text-align: center;
+  }
+
+  .UserResearch {
+    border: 1px outset #105FAAed;
+    background-color: #DAE1E8;    
+    text-align: center;
+  }
+
+  .UserEmpathy {
+    border: 1px outset #105FAAed;
+    background-color: #DAE1E8;    
+    text-align: center;
+  }
+
+  .QualitativeInterviews {
+    border: 1px outset #105FAAed;
+    background-color: #DAE1E8;    
+    text-align: center;
+  }
+
+  .NSA_Link {
+    border: 1px outset #105FAAed;
+    background-color: #DAE1E8;    
+    text-align: center;
+  }
+
+  .FOGSL_Link {
+    border: 1px outset #105FAAed;
+    background-color: #DAE1E8;    
+    text-align: center;
+  }
+
+  h1 {
+    text-align: center;
+  }
+
+  .Contact {
+    border: 1px outset #105FAAed;
+    background-color: #DAE1E8;    
+    text-align: center;
+  }
+
+  .imageRichard {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+  
+
+
+
+  .Footer {
+    border: 1px outset #105FAAed;
+    background-color: #DAE1E8;    
+    text-align: center;
+  }
