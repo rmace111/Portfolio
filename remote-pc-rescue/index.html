@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Richard's Remote PC Rescue — affordable remote Windows PC troubleshooting and setup from MaceTopia LLC.">
+  <meta name="theme-color" content="#071b33">
+  <title>Richard's Remote PC Rescue | MaceTopia LLC</title>
+  <style>
+    :root{--bg:#061426;--bg2:#0b2747;--card:#0e2037;--line:#1f4b78;--text:#eef7ff;--muted:#b7c8da;--accent:#44b6ff;--accent2:#80e1ff;--good:#87e4bb}
+    *{box-sizing:border-box}
+    html{scroll-behavior:smooth}
+    body{margin:0;font-family:Inter,Segoe UI,Arial,sans-serif;background:linear-gradient(180deg,var(--bg),#081b31 46%,#0a1f36);color:var(--text);line-height:1.55}
+    a{color:inherit}
+    .wrap{width:min(1080px,92vw);margin:auto}
+    header{min-height:66vh;display:grid;align-items:center;position:relative;overflow:hidden;border-bottom:1px solid #173b60}
+    header:before{content:"";position:absolute;inset:0;background:
+      radial-gradient(circle at 82% 22%,rgba(68,182,255,.30),transparent 28%),
+      radial-gradient(circle at 74% 42%,rgba(128,225,255,.14),transparent 24%),
+      linear-gradient(125deg,rgba(13,64,106,.15),transparent 52%);}
+    header:after{content:"";position:absolute;inset:-20%;background-image:linear-gradient(rgba(68,182,255,.055) 1px,transparent 1px),linear-gradient(90deg,rgba(68,182,255,.055) 1px,transparent 1px);background-size:44px 44px;transform:perspective(700px) rotateX(60deg) translateY(35%);opacity:.7}
+    .hero{position:relative;z-index:1;padding:72px 0}
+    .brand{display:inline-flex;gap:10px;align-items:center;padding:8px 13px;border:1px solid #2b5d8b;border-radius:999px;background:rgba(3,18,34,.62);color:var(--accent2);font-weight:700}
+    .mark{width:34px;height:34px;border-radius:10px;display:grid;place-items:center;background:linear-gradient(145deg,#133f69,#0a213a);border:1px solid #397bb1;font-size:18px}
+    h1{font-size:clamp(2.5rem,7vw,5.8rem);line-height:.98;letter-spacing:-.045em;margin:24px 0 20px;max-width:900px}
+    .sub{font-size:clamp(1.08rem,2.2vw,1.35rem);color:var(--muted);max-width:760px}
+    .price{color:#fff;font-weight:800}
+    .actions{display:flex;flex-wrap:wrap;gap:12px;margin-top:30px}
+    .btn{display:inline-flex;align-items:center;justify-content:center;padding:14px 20px;border-radius:12px;text-decoration:none;font-weight:800;border:1px solid transparent}
+    .primary{background:linear-gradient(135deg,var(--accent),#1579c8);box-shadow:0 14px 30px rgba(18,125,204,.26)}
+    .secondary{border-color:#2a628f;background:#0a213a}
+    .note{font-size:.92rem;color:#93abc1;margin-top:17px}
+    main{padding:64px 0 84px}
+    h2{font-size:clamp(1.8rem,4vw,2.65rem);margin:0 0 18px}
+    .grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+    .card{background:linear-gradient(180deg,rgba(14,32,55,.96),rgba(9,26,45,.96));border:1px solid #1c4770;border-radius:18px;padding:24px}
+    .card h3{margin:0 0 10px;font-size:1.08rem}
+    .card p{margin:0;color:var(--muted)}
+    .section{margin-top:62px}
+    .steps{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;counter-reset:step}
+    .step{padding:20px;border-left:3px solid var(--accent);background:#0b2139;border-radius:12px}
+    .step:before{counter-increment:step;content:counter(step);display:inline-grid;place-items:center;width:28px;height:28px;border-radius:50%;background:#123e66;color:var(--accent2);font-weight:800;margin-bottom:10px}
+    .boundary{border:1px solid #28577f;background:#0a1e34;border-radius:18px;padding:24px}
+    .boundary strong{color:var(--good)}
+    .cta{margin-top:64px;padding:34px;border-radius:22px;background:linear-gradient(135deg,#0d3155,#0b2038);border:1px solid #2b648f;display:flex;gap:24px;align-items:center;justify-content:space-between}
+    .cta p{margin:8px 0 0;color:var(--muted)}
+    footer{border-top:1px solid #173b60;padding:28px 0 40px;color:#91a9bf;font-size:.92rem}
+    @media(max-width:820px){.grid{grid-template-columns:1fr 1fr}.steps{grid-template-columns:1fr 1fr}.cta{display:block}.cta .actions{margin-top:22px}}
+    @media(max-width:560px){.grid,.steps{grid-template-columns:1fr}header{min-height:auto}.hero{padding:54px 0}.card{padding:20px}}
+  </style>
+</head>
+<body>
+<header>
+  <div class="wrap hero">
+    <div class="brand"><span class="mark">🛠</span> MaceTopia LLC</div>
+    <h1>Richard's Remote PC Rescue</h1>
+    <p class="sub">Practical remote Windows PC help for setup, troubleshooting, software, printers, browsers, basic networking, backups, and beginner Git/GitHub/VS Code setup.</p>
+    <p class="sub price">$25 introductory session — up to 45 minutes.</p>
+    <div class="actions">
+      <a class="btn primary" href="mailto:rmace111@gmail.com?subject=Remote%20PC%20Rescue%20Request">Email Richard</a>
+      <a class="btn secondary" href="https://nextdoor.com/page/macetopia-llc-richards-remote-pc-rescue-murray-ut/" target="_blank" rel="noopener">View on Nextdoor</a>
+    </div>
+    <div class="note">Remote support only. Please do not email passwords, PINs, recovery codes, payment-card information, or other sensitive credentials.</div>
+  </div>
+</header>
+
+<main class="wrap">
+  <section>
+    <h2>What I can help with</h2>
+    <div class="grid">
+      <div class="card"><h3>Windows troubleshooting</h3><p>Slow-PC diagnosis, common Windows problems, updates, configuration, and practical next-step guidance.</p></div>
+      <div class="card"><h3>Software & browsers</h3><p>Application installation, setup, browser problems, cleanup, and basic configuration.</p></div>
+      <div class="card"><h3>Printers & devices</h3><p>Common printer and peripheral setup, connection troubleshooting, and device configuration.</p></div>
+      <div class="card"><h3>Home networking</h3><p>Basic Wi-Fi and LAN troubleshooting for ordinary home-computer connectivity problems.</p></div>
+      <div class="card"><h3>Files & backups</h3><p>File organization, backup planning, and safer setup for important personal files.</p></div>
+      <div class="card"><h3>Git & developer setup</h3><p>Beginner Git, GitHub, VS Code, and basic developer-environment setup.</p></div>
+    </div>
+  </section>
+
+  <section class="section">
+    <h2>A careful troubleshooting process</h2>
+    <div class="steps">
+      <div class="step"><strong>Understand</strong><br>Start with the problem and the result you want.</div>
+      <div class="step"><strong>Baseline</strong><br>Check the current system state before changing settings.</div>
+      <div class="step"><strong>One change</strong><br>Make bounded changes instead of stacking guesses.</div>
+      <div class="step"><strong>Verify</strong><br>Confirm what worked and clearly identify anything still open.</div>
+    </div>
+  </section>
+
+  <section class="section boundary">
+    <h2>Clear scope. No risky guessing.</h2>
+    <p>If a problem requires hardware repair, advanced data recovery, professional malware incident response, or another specialty outside this introductory service, I will say so rather than make risky changes.</p>
+    <p><strong>You remain in control of your computer throughout the session.</strong> The $25 fee covers up to 45 minutes of troubleshooting effort and does not guarantee that every problem can be repaired remotely.</p>
+  </section>
+
+  <section class="cta">
+    <div>
+      <h2>Need help with a Windows PC?</h2>
+      <p>Send a short description of what is going wrong and what you want working by the end of the session.</p>
+    </div>
+    <div class="actions">
+      <a class="btn primary" href="mailto:rmace111@gmail.com?subject=Remote%20PC%20Rescue%20Request&body=Main%20problem%3A%0AWindows%20version%20(if%20known)%3A%0ACan%20you%20still%20sign%20in%3F%3A%0AWhat%20would%20a%20successful%20session%20look%20like%3F%3A">Start by Email</a>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">MaceTopia LLC | Richard's Remote PC Rescue · Remote support introductory service · Contact: rmace111@gmail.com</div>
+</footer>
+</body>
+</html>
