@@ -34,7 +34,7 @@ async function loadInventory() {
             '<span class="tag">' + escapeHtml(item.delivery) + '</span>' +
           '</div>' +
           '<p>' + escapeHtml(item.description) + '</p>' +
-          '<a class="btn primary" href="mailto:macetopiallc@gmail.com?subject=' + subject + '">Ask about this item</a>' +
+          '<a class="btn primary" href="https://mail.google.com/mail/?view=cm&fs=1&to=macetopiallc%40gmail.com&su=' + subject + '">Ask about this item</a>' +
         '</div></article>';
     }).join("");
   } catch (error) {
