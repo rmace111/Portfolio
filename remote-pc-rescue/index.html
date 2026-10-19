@@ -139,5 +139,28 @@
 <footer>
   <div class="wrap">MaceTopia LLC | Richard's Remote PC Rescue · Remote support introductory service · <a href="../macetopia/">MaceTopia home</a> · Call/Text: (385) 355-4974 · Email: macetopiallc@gmail.com</div>
 </footer>
+
+<script>
+(function () {
+  // On phones, sms: opens the user's messaging app. On desktop Windows,
+  // no SMS app is guaranteed: copy the business number instead of
+  // invoking an unusable operating-system app chooser.
+  if (/Android|iPhone|iPad|iPod|Mobile/i.test(navigator.userAgent)) return;
+  document.querySelectorAll('a[href^="sms:+13853554974"]').forEach(function (link) {
+    link.textContent = 'Copy text number';
+    link.setAttribute('title', 'Copy (385) 355-4974 to text from your phone');
+    link.addEventListener('click', async function (event) {
+      event.preventDefault();
+      try {
+        await navigator.clipboard.writeText('(385) 355-4974');
+        link.textContent = 'Number copied!';
+      } catch (err) {
+        window.prompt('Copy this number to text from your phone:', '(385) 355-4974');
+        link.textContent = 'Copy text number';
+      }
+    });
+  });
+}());
+</script>
 </body>
 </html>
